@@ -18,10 +18,10 @@ jobs:
         uses: ilammy/msvc-dev-cmd@v1
 
       - name: Compile C++
-        run: cl /EHsc /std:c++17 /O2 tugas5bilanganganjilgenap.cpp /Fe:tugas5bilanganganjilgenap.exe
+        run: cl /EHsc /std:c++17 /O2 tugas5bilangangenapganjil.cpp /Fe:tugas5bilanganganjilgenap.exe
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
         with:
-          name: tugas5bilanganganjilgenap-exe
-          path: tugas5bilanganganjilgenap.exe
+          name: tugas5bilangangenapganjil-exe
+          path: tugas5bilangangenapganjil.exe
